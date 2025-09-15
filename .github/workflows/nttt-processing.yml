@@ -1,14 +1,7 @@
 name: NTTT processing
 
 on:
-  # for calling from other workflow
-  # workflow_call:
-  #   inputs:
-  #     branch:
-  #       description: 'Branch to process translations on'
-  #       required: false
-  #       default: 'l10n_crowdin_translations'
-  #       type: string
+  # currently allowing manual trigger only
   workflow_dispatch:
     inputs:
       branch:
