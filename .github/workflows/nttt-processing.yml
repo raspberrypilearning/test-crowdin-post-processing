@@ -38,8 +38,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/raspberrypilearning/nttt.git
 
-      - name: Run NTTT
-        if: inputs.language == ''
+      - name: Run NTTT on all language directories except 'en'
         run: |
           processed_count=0
           for lang_dir in */; do
@@ -47,7 +46,7 @@ jobs:
               lang_code=$(basename "$lang_dir")
               echo "Processing language: $lang_code"
               cd "$lang_dir"
-              nttt --yes
+              nttt -Y
               cd ..
               ((processed_count++))
             fi
