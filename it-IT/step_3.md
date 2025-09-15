@@ -9,15 +9,15 @@ In this step, you will design the overall layout of your mood board and add cont
 </div>
 </div>
 
-\--- task ---
+--- task ---
 
 You will create several sections of content for your mood board and can use a combination of text, images, or emojis.
 
 Think about the sections you want to add. You could sketch your layout on paper if you prefer.
 
-\--- /task ---
+--- /task ---
 
-\--- task ---
+--- task ---
 
 ![A strip of three images to show different sets of three sections and different colour palettes.](images/example-layouts.png)
 
@@ -39,9 +39,9 @@ Add at least three sections to `<main></main>` in your mood board. You can add m
 
 [[[web-wrap-gap]]]
 
-\--- /task ---
+--- /task ---
 
-\--- task ---
+--- task ---
 
 **Test:** Check that you are happy with the layout of the page. Don't worry about the actual content or images yet. You will add those in the next step.
 
@@ -51,5 +51,5 @@ Add at least three sections to `<main></main>` in your mood board. You can add m
 
 [[[mismatched-tags]]]
 
-\--- /task ---
+--- /task ---
 

@@ -9,7 +9,7 @@ In this step, you will fill in your layout with content to create the mood that 
 </div>
 </div>
 
-\--- task ---
+--- task ---
 
 ![alt=""](images/text-examples.png){:width="300px"}
 
@@ -27,9 +27,9 @@ Don't spend too much time on the text details. A mood board just sets the mood f
 
 [[[full-width-quote]]]
 
-\--- /task ---
+--- /task ---
 
-\--- task ---
+--- task ---
 
 ![Examples of images and emoji in a strip.](images/image-emoji-strip.png)
 
@@ -47,15 +47,16 @@ There are lots of different emojis to choose from.
 
 **Tip:** It is fine to use the same image or emoji multiple times on your webpage to quickly fill your page.
 
-\--- /task ---
+--- /task ---
 
-\--- task ---
+--- task ---
 
 **Debug:**
 
-## --- collapse ---
-
-## title: My content has different heights and it looks odd
+--- collapse ---
+---
+title: My content has different heights and it looks odd
+---
 
 When you add content that has different heights, the boxes around them will be different heights.
 
@@ -63,7 +64,8 @@ When you add content that has different heights, the boxes around them will be d
 
 You can change this by adding in the `tile` class:
 
-## --- code ---
+##
+--- code ---
 
 language: HTML
 filename: index.html
@@ -76,7 +78,8 @@ line_numbers: false
 
 `tile` sets a specific height for each of the elements that have this class. To adjust the height, change it in the `style.css` file.
 
-## --- code ---
+##
+--- code ---
 
 language: CSS
 filename: style.css
@@ -87,20 +90,31 @@ line_numbers: false
 .tile {
 height: 9.4rem;
 }
-\--- /code ---
+--- /code ---
 
 Add the `tile` class to make every element with that class the same height.
 
 ![alt=""](images/same-height.png)
 
-\--- /collapse ---
+--- /collapse ---
 
-\--- /task ---
+--- /task ---
 
-\--- task ---
+--- task ---
 
 **Test:** Have a look at your webpage. Make sure you are happy with the content on your page.
 
 [[[image-not-displayed]]]
 
-\--- /task ---
+--- /task ---
+
+***
+Ce projet a été traduit par des bénévoles:
+
+[name]
+
+[name]
+
+[name]
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

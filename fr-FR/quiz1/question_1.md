@@ -8,7 +8,7 @@ You will be guided towards the correct answer. You can do this activity as many 
 
 Have fun!
 
-\--- question ---
+--- question ---
 
 ---
 
@@ -16,7 +16,8 @@ Have fun!
 
 Which option is the output of this piece of code?
 
-## --- code ---
+##
+--- code ---
 
 language: html
 filename: index.html
@@ -29,40 +30,40 @@ filename: index.html
   </div>
 </section>
 
-\--- /code ---
+--- /code ---
 
-\--- choices ---
+--- choices ---
 
 - ( )
 
 ![A narrow <div> then a wide <div>.](images/narrow-wide.png){:style="min-width: 400px"}
 
-\--- feedback ---
+--- feedback ---
 
 Not quite. Look closer at the classes used on each `<div>` element.
 
-\--- /feedback ---
+--- /feedback ---
 
 - ( )
 
 ![Two same sized <div> elements.](images/normal-normal.png){:width="400px"}
 
-\--- feedback ---
+--- feedback ---
 
 Not quite. There is a class used that controls the size of each `<div>` element.
 
-\--- /feedback ---
+--- /feedback ---
 
 - (x)
 
 ![A wide <div> then a narrow <div>.](images/wide-narrow.png){:width="400px"}
 
-\--- feedback ---
+--- feedback ---
 
 That's right. This code creates two `<div>` elements with a dashed border. The first one is wide and the second one is narrow.
 
-\--- /feedback ---
+--- /feedback ---
 
-\--- /choices ---
+--- /choices ---
 
-\--- /question ---
+--- /question ---

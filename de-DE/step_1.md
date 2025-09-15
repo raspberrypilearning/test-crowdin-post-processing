@@ -14,9 +14,9 @@ You will:
 
 ![A line of images from example projects. The projects have different colours, fonts, and layouts.](images/example-strip.png)
 
-\--- no-print ---
+--- no-print ---
 
-\--- task ---
+--- task --- 
 
 ### Try it
 
@@ -26,45 +26,45 @@ One way to feel happier is to remember what is important to you. You could make 
 </div>
 <div>
 
-**Happiness**: [See inside](https://editor.raspberrypi.org/en/projects/happiness-mood-board){:target="_blank"}
+**Happiness**: [See inside](https://editor.raspberrypi.org/de-DE/projects/happiness-mood-board){:target="_blank"}
 
-<div><iframe src="https://editor.raspberrypi.org/en/embed/viewer/happiness-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<div><iframe src="https://editor.raspberrypi.org/de-DE/embed/viewer/happiness-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 </div>
 
-\--- /task ---
+--- /task ---
 
 ### Get inspiration
 
 You need to make some design decisions to create your mood board.
 
-\--- task ---
+--- task ---
 
 Explore these example projects to get more ideas:
 
-**Beetle**: [See inside](https://editor.raspberrypi.org/en/projects/beetle-mood-board){:target="_blank"}
+**Beetle**: [See inside](https://editor.raspberrypi.org/de-DE/projects/beetle-mood-board){:target="_blank"}
 
 <div>
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/beetle-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/de-DE/embed/viewer/beetle-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
-**Colours of India**: [See inside](https://editor.raspberrypi.org/en/projects/travel-mood-board){:target="_blank"}
+**Colours of India**: [See inside](https://editor.raspberrypi.org/de-DE/projects/travel-mood-board){:target="_blank"}
 
 <div>
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/travel-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/de-DE/embed/viewer/travel-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
-**Doodles**: [See inside](https://editor.raspberrypi.org/en/projects/doodle-mood-board){:target="_blank"}
+**Doodles**: [See inside](https://editor.raspberrypi.org/de-DE/projects/doodle-mood-board){:target="_blank"}
 
 <div>
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/doodle-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/de-DE/embed/viewer/doodle-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
-\--- /task ---
-\--- /no-print ---
+--- /task ---
+--- /no-print ---
 
-\--- print-only ---
+--- print-only ---
 
 ### Get inspiration
 
@@ -84,5 +84,5 @@ Explore these example projects to get more ideas:
 
 ![](images/doodle.PNG)
 
-\--- /print-only ---
+--- /print-only ---
 
