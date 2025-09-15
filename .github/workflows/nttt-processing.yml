@@ -46,7 +46,7 @@ jobs:
               lang_code=$(basename "$lang_dir")
               echo "Processing language: $lang_code"
               cd "$lang_dir"
-              nttt -Y
+              nttt -Y YES
               cd ..
               ((processed_count++))
             fi
