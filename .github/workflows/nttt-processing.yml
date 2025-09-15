@@ -39,8 +39,20 @@ jobs:
           pip install git+https://github.com/raspberrypilearning/nttt.git
 
       - name: Run NTTT
+        if: inputs.language == ''
         run: |
-          nttt --yes
+          processed_count=0
+          for lang_dir in */; do
+            if [[ -d "$lang_dir" && "$lang_dir" != "en/" ]]; then
+              lang_code=$(basename "$lang_dir")
+              echo "Processing language: $lang_code"
+              cd "$lang_dir"
+              nttt --yes
+              cd ..
+              ((processed_count++))
+            fi
+          done
+          echo "Processed $processed_count languages"
 
       - name: Add changes to branch
         run: |
