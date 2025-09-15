@@ -40,18 +40,15 @@ jobs:
 
       - name: Run NTTT on all language directories except 'en'
         run: |
-          processed_count=0
           for lang_dir in */; do
             if [[ -d "$lang_dir" && "$lang_dir" != "en/" ]]; then
               lang_code=$(basename "$lang_dir")
               echo "Processing language: $lang_code"
               cd "$lang_dir"
-              printf "y\n" | nttt -Y YES
+              printf "y\n" | nttt -Y YES || true
               cd ..
-              ((processed_count++))
             fi
           done
-          echo "Processed $processed_count languages"
 
       - name: Add changes to branch
         run: |
